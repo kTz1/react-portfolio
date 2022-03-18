@@ -21,7 +21,7 @@ const Work = () => {
                 setWorks(data);
                 setFilterWork(data);
             })
-    }, [])
+    }, []);
 
     const handleFilter = (item) => {
         setActiveFilter(item);
