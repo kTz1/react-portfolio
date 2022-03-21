@@ -32,8 +32,8 @@ const Footer = () => {
             .then(() => {
                 setLoading(false);
                 setIsFormSubmitted(true);
-            })
-    }
+            });
+    };
 
     return (
         <>
@@ -74,8 +74,8 @@ const Footer = () => {
                 </div>
             }
         </>
-    )
-}
+    );
+};
 
 export default AppWrap(
     MotionWrap(Footer, 'app__footer'),

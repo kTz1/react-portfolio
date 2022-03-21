@@ -36,7 +36,7 @@ const Work = () => {
                 setFilterWork(works.filter((work) => work.tags.includes(item)));
             }
         }, 500);
-    }
+    };
 
     return (
         <>
@@ -103,8 +103,8 @@ const Work = () => {
                 ))}
             </motion.div>
         </>
-    )
-}
+    );
+};
 
 export default AppWrap(
     MotionWrap(Work, 'app__works'),

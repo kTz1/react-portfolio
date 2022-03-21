@@ -14,7 +14,7 @@ const Testimonial = () => {
 
     const handlkeClick = (index) => {
         setCurrentIndex(index);
-    }
+    };
 
     useEffect(() => {
         const testimonialsQuery = '*[_type == "testimonials"]';
@@ -28,6 +28,7 @@ const Testimonial = () => {
     }, []);
 
     const test = testimonials[currentIndex];
+    
     return (
         <>
             {testimonials.length && (
@@ -66,11 +67,11 @@ const Testimonial = () => {
                 ))}
             </div>
         </>
-    )
-}
+    );
+};
 
 export default AppWrap(
     MotionWrap(Testimonial, 'app__testimonial'),
-    'testimonial',
+    'testimonials',
     'app__primarybg'
 );

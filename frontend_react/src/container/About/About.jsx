@@ -36,8 +36,8 @@ const About = () => {
                 ))}
             </div>
         </>
-    )
-}
+    );
+};
 
 export default AppWrap(
     MotionWrap(About, 'app__about'),

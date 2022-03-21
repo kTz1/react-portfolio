@@ -31,7 +31,7 @@ const Header = () => {
                         <span>👋</span>
                         <div style={{ marginLeft: 20 }}>
                             <p className="p-text">Hello, I am</p>
-                            <h1 className="head-text">Catalin</h1>
+                            <h1 className="head-text">Micael</h1>
                         </div>
                     </div>
 
@@ -70,7 +70,7 @@ const Header = () => {
                 ))}
             </motion.div>
         </div>
-    )
-}
+    );
+};
 
 export default AppWrap(Header, 'home');
